@@ -1,3 +1,4 @@
+import {Ex} from './ex/ex';
 
 class MyNode{
     public idNumber: number;
@@ -9,6 +10,7 @@ class MyNode{
         this.connections = []
         this.x = x;
         this.y = y;
+        let ex = new Ex();
     }
      addNode(n0){
         this.connections.push(n0);
